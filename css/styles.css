@@ -42,29 +42,48 @@
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+body{
+  background-color: black;
+}
 .jumbotron{
   text-align: center;
-  margin-left: 25%;
-  margin-right: 25%;
-  margin-bottom: 5%;
-  background-color: lightgrey;
-  border: 4px solid rgb(121, 119, 119);
-  border-radius: 5%;
+  width: 100vw;
+  height: 15vh;
 }
-.btn{
-  margin: 1%;
+
+.jumbotron h1{
+  padding: 1%;
+  color:gray;
+}
+.btn-primary{
+  text-align: center;
+  width: 100%;
+  margin-top: 12%;
 }
 
 #colorDisplay{
   margin: 2%;
-  border: 2px dashed black;
+  border: 2px dashed gray;
+  min-height: 100px;
+  min-width: 100px;
+  background-color: #276cb8;
+}
+
+.colorDiv{
+  margin: 1%;
+  border: 2px solid black;
   min-height: 100px;
   min-width: 100px;
 }
 
-.colorDiv{
-  margin: 2%;
-  border: 2px solid black;
-  min-height: 100px;
-  min-width: 100px;
+.topCols{
+  height: 60vh;
+  border: 2px solid gray;
+  background-color: black;
+}
+
+.buttonRow{
+  height: 25%;
+  text-align: center;
 }

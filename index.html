@@ -8,16 +8,16 @@
   <script src="js/scripts.js"></script>
 </head>
 <body>
-  <div class="container">
-    <div class="jumbotron">
-      <h1>Embroidery Color Palette</h1>
-    </div>
+  <div class="jumbotron">
+    <h1>Embroidery Color Palette</h1>
+  </div>
+  <div class="">
     <!--Sidebar for saved color palettes-->
     <div id="rSideBar" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <button id="sideClose">&times;</button>
     </div>
     <div class="row">
-      <div class="col-sm-4">
+      <div class="col-sm-5 topCols">
         <form id="formOne">
           <div class="form-group">
             <label for="color-picker">Choose a color</label>
@@ -25,22 +25,32 @@
           </div>
         </form>
       </div>
-      <div class="col-sm-4">
-        <div class="row">
-          <div class="col-sm-6">
+      <div class="col-sm-2 topCols">
+        <div class="row buttonRow">
+          <div class="col-sm-12">
             <button class="btn btn-primary" id="saveButton">Save Color</button>
+          </div>
+        </div>
+        <div class="row buttonRow">
+          <div class="col-sm-12">
+            <button class="btn btn-primary" id="randomButton">Random Palette</button>
+          </div>
+        </div>
+        <div class="row buttonRow">
+          <div class="col-sm-12">
             <button class="btn btn-primary" id="paletteButton">Save Palette</button>
           </div>
-          <div class="col-sm-6">
-            <button class="btn btn-primary" id="randomButton">Random Palette</button>
+        </div>
+        <div class="row buttonRow">
+          <div class="col-sm-12">
             <button class="btn btn-primary" id="toggleButton">Saved Palettes</button> 
           </div>
         </div>
         
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-5 topCols">
         <div class="row">
-          <div id="colorDisplay" class="colorDiv col-sm-3"></div>
+          <div id="colorDisplay" class="colorDiv col-sm-2"></div>
         </div>
         <div class="row" id="colorDivContainer">
           
