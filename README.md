@@ -16,12 +16,3 @@ add attacheventhandler function
 -random
 -palette
 
-  $("#toggleButton").click(function(event){
-    if(sidebarDisplay){
-      closeBar();
-    } else{
-      openBar();
-    }
-    event.preventDefault();
-  });
-

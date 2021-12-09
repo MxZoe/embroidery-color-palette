@@ -43,6 +43,35 @@
   .sidenav a {font-size: 18px;}
 }
 
+.line{
+  max-width: 16.6%;
+  max-height: 1vh;
+}
+
+.purple{
+  border: 2px solid #CC99FF;
+}
+
+.blue{
+  border: 2px solid #A9D1F7;
+}
+
+.green{
+  border: 2px solid #B4f0a7;
+}
+
+.yellow{
+  border: 2px solid #ffffbf;
+}
+
+.orange{
+  border: 2px solid #ffdfbe;
+}
+
+.red{
+  border: 2px solid #ffb1b0;
+}
+
 body{
   background-color: black;
 }
@@ -63,23 +92,25 @@ body{
 }
 
 #colorDisplay{
-  margin: 2%;
+  margin: 1%;
   border: 2px dashed gray;
-  min-height: 100px;
-  min-width: 100px;
+  min-height: 16vh;
+  min-width: 4vw;
+  max-width: 9vw;
   background-color: #276cb8;
 }
 
 .colorDiv{
   margin: 1%;
-  border: 2px solid black;
-  min-height: 100px;
-  min-width: 100px;
+  border: 2px solid gray;
+  min-height: 16vh;
+  min-width: 4vw;
+  max-width: 9vw;
+  
 }
 
 .topCols{
   height: 60vh;
-  border: 2px solid gray;
   background-color: black;
 }
 
